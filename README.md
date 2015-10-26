@@ -30,7 +30,7 @@ Now browse to the app at `http://localhost:8000/app/index.html`.
 
 There are two kinds of tests in the application: Unit tests and End to End tests.
 
-### Running Unit Tests (Chrome, IE, Firefox)
+### Running Unit Tests
 
 All unit tests:
 
@@ -45,7 +45,7 @@ npm run test-single-run
 ```
 
 
-### End to end testing (Chrome, IE, Firefox)
+### End to end testing
 
 Start web server:
 
