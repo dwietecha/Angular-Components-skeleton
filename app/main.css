@@ -1,0 +1,63 @@
+header, nav {
+    border-bottom: 1px solid silver;    
+}
+header .title {
+    width: 74%;
+    padding: 0 0 0 10px;
+    float: left;
+}
+ot-dropdown{
+    width: 20%;
+    float: right;
+    position: relative;
+    padding: 30px 2%;
+}
+ot-dropdown ot-target ul{
+    list-style: none;
+    position: absolute;
+    background: white;
+    top: 0;
+    padding: 0;
+    border: 1px solid silver;
+    margin: 0;
+}
+ot-trigger div{
+    padding: 1px 8px;
+    border: 1px solid silver;
+}
+ot-target ul li{
+    padding: 1px 8px;
+    width: 100px;
+}
+ot-trigger {
+    position: relative;
+}
+ot-trigger span:after {
+    content: '>';
+    font: 17px "Consolas", monospace;
+    color: #aaa;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    right: 8px;
+    top: 2px;
+    padding: 0 0 2px;
+    border-bottom: 1px solid #ddd;
+    position: absolute;
+    pointer-events: none;
+}
+nav ot-list ul li{
+    display: inline-block;
+    padding: 3px 1%;
+    width: 23%;
+    text-align: center;
+}
+nav ot-list ul {
+    padding: 0px;
+    list-style-type: none;
+}
+.otSelected {
+    background-color: silver;
+}
+
